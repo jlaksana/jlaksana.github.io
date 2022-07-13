@@ -9,7 +9,7 @@ function Navbar() {
       </a>
       <ul>
         <li>
-          <a href="/about">About Me</a>
+          <a href="/about">About</a>
         </li>
         <li>
           <a href="/exp">Experience</a>
