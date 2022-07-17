@@ -1,12 +1,17 @@
 import React from "react";
 import "../css/About.css";
-import headshot from "../assets/headshot.jpg";
 import { Button } from "@mui/material";
 
 function About() {
   return (
     <header className="aboutMe">
-      <img src={headshot} width="20%" height="20%" alt="My headshot" />
+      <img
+        className="headshot"
+        src={process.env.PUBLIC_URL + "headshot.jpg"}
+        width="200rem"
+        height="200rem"
+        alt="My headshot"
+      />
       <div>
         <h1>Hi, I'm Jonathan</h1>
         <h3>

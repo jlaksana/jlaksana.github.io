@@ -1,0 +1,12 @@
+.projectsPage {
+  padding: 10%;
+  border: solid green 2px;
+}
+
+.cards {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+}
