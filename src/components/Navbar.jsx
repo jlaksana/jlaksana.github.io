@@ -1,24 +1,26 @@
 import React from "react";
 import "../css/Navbar.css";
+import { HashLink as Link } from "react-router-hash-link";
+// https://www.npmjs.com/package/react-router-hash-link
 
 function Navbar() {
   return (
     <nav className="nav">
-      <a href="/" className="siteTitle">
+      <Link to="#top" className="siteTitle">
         Jonathan Laksana
-      </a>
+      </Link>
       <ul>
         <li>
-          <a href="/about">About</a>
+          <Link to="#about">About</Link>
         </li>
         <li>
-          <a href="/exp">Experience</a>
+          <Link to="#exp">Experience</Link>
         </li>
         <li>
-          <a href="/projects">Projects</a>
+          <Link to="/#projects">Projects</Link>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <Link to="#contact">Contact</Link>
         </li>
       </ul>
     </nav>

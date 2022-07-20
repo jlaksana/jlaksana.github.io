@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 
 function About() {
   return (
-    <header className="aboutMe">
+    <header className="aboutMe" id="about">
       <img
         className="headshot"
         src={process.env.PUBLIC_URL + "headshot.jpg"}

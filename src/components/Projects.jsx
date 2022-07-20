@@ -6,7 +6,7 @@ import "../css/Projects.css";
 
 function Projects() {
   return (
-    <div className="projectsPage">
+    <div className="projectsPage" id="projects">
       <Typography variant="h4" color="primary">
         Projects
       </Typography>
