@@ -6,21 +6,24 @@ import { HashLink as Link } from "react-router-hash-link";
 function Navbar() {
   return (
     <nav className="nav">
-      <Link to="#top" className="siteTitle">
+      <Link smooth to="#top" className="siteTitle">
         Jonathan Laksana
       </Link>
       <ul>
         <li>
-          <Link to="#about">About</Link>
+          <Link smooth to="#about">
+            About
+          </Link>
         </li>
         <li>
-          <Link to="#exp">Experience</Link>
+          <Link smooth to="#projects">
+            Projects
+          </Link>
         </li>
         <li>
-          <Link to="/#projects">Projects</Link>
-        </li>
-        <li>
-          <Link to="#contact">Contact</Link>
+          <Link smooth to="#contact">
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>

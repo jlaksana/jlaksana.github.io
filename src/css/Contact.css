@@ -1,0 +1,18 @@
+#contact {
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25vw;
+  background-color: gray;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
