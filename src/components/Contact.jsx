@@ -29,7 +29,10 @@ function Contact() {
             <EmailIcon />
           </IconButton>
         </Tooltip>
-        <Link to="#" onClick={() => window.open("mailto:yourmail@domain.com")}>
+        <Link
+          to="#"
+          onClick={() => window.open("mailto:jonathanalaksana@gmail.com")}
+        >
           jonathanalaksana@gmail.com
         </Link>
       </div>
