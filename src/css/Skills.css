@@ -1,0 +1,14 @@
+#skills {
+  padding: 10%;
+  background-color: gray;
+  text-align: center;
+}
+
+.skills-grid {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
