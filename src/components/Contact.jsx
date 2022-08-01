@@ -22,19 +22,16 @@ function Contact() {
         >
           <IconButton
             component="a"
-            onClick={() => window.open("mailto:jonathanalaksana@gmail.com")}
+            onClick={() => window.open("mailto:jlaksana@calpoly.edu")}
             aria-label="Email"
             color="secondary"
           >
             <EmailIcon />
           </IconButton>
         </Tooltip>
-        <Link
-          to="#"
-          onClick={() => window.open("mailto:jonathanalaksana@gmail.com")}
-        >
+        <Link to="#" onClick={() => window.open("mailto:jlaksana@calpoly.edu")}>
           <Typography variant="body1" display="inline">
-            jonathanalaksana@gmail.com
+            jlaksana@calpoly.com
           </Typography>
         </Link>
       </div>
