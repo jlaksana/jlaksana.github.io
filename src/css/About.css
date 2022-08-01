@@ -1,12 +1,17 @@
 #about {
   padding: 10%;
   text-align: center;
-  display: flex;
-  gap: 5vw;
-  flex-wrap: wrap;
-  justify-content: center;
+}
+
+#about * {
+  padding-top: 25px;
 }
 
 #about img {
+  padding-top: 0;
   border-radius: 50%;
+}
+
+#about a {
+  color: blue;
 }
