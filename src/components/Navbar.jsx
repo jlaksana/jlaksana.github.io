@@ -12,17 +12,17 @@ function Navbar() {
       <ul>
         <li>
           <Link smooth to="#about">
-            <Typography variant="h6">About</Typography>
+            <Typography variant="subtitle1">About</Typography>
           </Link>
         </li>
         <li>
           <Link smooth to="#projects">
-            <Typography variant="h6">Projects</Typography>
+            <Typography variant="subtitle1">Projects</Typography>
           </Link>
         </li>
         <li>
           <Link smooth to="#contact">
-            <Typography variant="h6">Contact</Typography>
+            <Typography variant="subtitle1">Contact</Typography>
           </Link>
         </li>
       </ul>
