@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/HeroLanding.css";
 import { Button, Typography } from "@mui/material";
+import { HashLink as Link } from "react-router-hash-link";
 
 function HeroLanding() {
   /*
@@ -26,19 +27,19 @@ function HeroLanding() {
             engineer
           </Typography>
           <Button
+            component={Link}
             variant="contained"
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/file/d/1NRMeL_bOOHDmxIE4lxlELO2si8PuJk6h/view?usp=sharing"
-              )
-            }
+            smooth
+            to="#about"
             color="primary"
           >
-            My Resume
+            About Me
           </Button>
           <Button
+            component={Link}
             variant="contained"
-            onClick={() => window.open("mailto:jonathanalaksana@gmail.com")}
+            smooth
+            to="#contact"
             color="primary"
           >
             Contact Me

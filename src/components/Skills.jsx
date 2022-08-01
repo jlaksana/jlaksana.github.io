@@ -11,10 +11,9 @@ import git from "../images/git.png";
 import mui from "../images/mui.png";
 
 function Skills() {
-  // python, java, Javascript, C, React, Node, GitHub, MongoDB
   return (
     <div id="skills">
-      <Typography variant="h3" color="white">
+      <Typography variant="h4" color="white">
         Skills
       </Typography>
       <div className="skills-grid">

@@ -1,11 +1,16 @@
 .nav {
-  background-color: gray;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #546e7a;
+  overflow: hidden;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 0.5rem;
   padding: 1rem 2rem;
+  z-index: 5;
 }
 
 .siteTitle {
@@ -29,11 +34,10 @@
   padding: 0.25rem;
 }
 
-.nav li:active {
-  background-color: #222;
-}
-
 .nav li:hover {
-  background-color: #333;
+  background-color: #37474f;
+  padding: 10px;
   height: 100%;
+  border-radius: 5px;
+  z-index: 2;
 }

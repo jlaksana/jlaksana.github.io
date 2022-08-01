@@ -1,5 +1,7 @@
 import "./css/App.css";
 import { BrowserRouter } from "react-router-dom";
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./theme";
 import Navbar from "./components/Navbar";
 import HeroLanding from "./components/HeroLanding";
 import About from "./components/About";
@@ -10,14 +12,16 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <HeroLanding />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </div>
+      <ThemeProvider theme={theme}>
+        <div className="App">
+          <Navbar />
+          <HeroLanding />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+        </div>
+      </ThemeProvider>
     </BrowserRouter>
   );
 }

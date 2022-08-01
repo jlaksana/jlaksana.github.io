@@ -4,7 +4,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.6)
+    ),
     url("../images/slo_landscape.jpg");
   background-size: cover;
   background-position: center center;
@@ -12,7 +16,7 @@
   background-attachment: fixed;
 }
 
-.hero button {
+.hero a {
   margin: 20px;
 }
 

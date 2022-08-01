@@ -4,8 +4,8 @@
   padding-bottom: 5%;
   display: flex;
   flex-wrap: wrap;
-  gap: 25vw;
-  background-color: gray;
+  justify-content: space-between;
+  background-color: #546e7a;
 }
 
 a {
@@ -15,4 +15,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+#other-links {
+  padding-right: 35%;
 }

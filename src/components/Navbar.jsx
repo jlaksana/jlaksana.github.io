@@ -1,28 +1,28 @@
 import React from "react";
 import "../css/Navbar.css";
 import { HashLink as Link } from "react-router-hash-link";
-// https://www.npmjs.com/package/react-router-hash-link
+import { Typography } from "@mui/material";
 
 function Navbar() {
   return (
-    <nav className="nav">
+    <nav className="nav" id="navbar">
       <Link smooth to="#top" className="siteTitle">
-        Jonathan Laksana
+        <Typography variant="h3">Jonathan Laksana</Typography>
       </Link>
       <ul>
         <li>
           <Link smooth to="#about">
-            About
+            <Typography variant="h6">About</Typography>
           </Link>
         </li>
         <li>
           <Link smooth to="#projects">
-            Projects
+            <Typography variant="h6">Projects</Typography>
           </Link>
         </li>
         <li>
           <Link smooth to="#contact">
-            Contact
+            <Typography variant="h6">Contact</Typography>
           </Link>
         </li>
       </ul>

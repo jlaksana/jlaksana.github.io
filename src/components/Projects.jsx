@@ -7,9 +7,7 @@ import "../css/Projects.css";
 function Projects() {
   return (
     <div className="projectsPage" id="projects">
-      <Typography variant="h4" color="primary">
-        Projects
-      </Typography>
+      <Typography variant="h4">Projects</Typography>
       <div className="cards">
         {projects.map((project) => (
           <ProjectCard

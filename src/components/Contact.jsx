@@ -33,10 +33,12 @@ function Contact() {
           to="#"
           onClick={() => window.open("mailto:jonathanalaksana@gmail.com")}
         >
-          jonathanalaksana@gmail.com
+          <Typography variant="body1" display="inline">
+            jonathanalaksana@gmail.com
+          </Typography>
         </Link>
       </div>
-      <div>
+      <div id="other-links">
         <Typography variant="h5" color="white">
           Other Links
         </Typography>
