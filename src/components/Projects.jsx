@@ -1,8 +1,8 @@
-import React from "react";
-import ProjectCard from "./ProjectCard";
 import Typography from "@mui/material/Typography";
-import projects from "../projects";
+import React from "react";
 import "../css/Projects.css";
+import projects from "../projects";
+import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (

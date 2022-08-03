@@ -1,9 +1,13 @@
-import React from "react";
-import "../css/Navbar.css";
-import { HashLink as Link } from "react-router-hash-link";
 import { Typography } from "@mui/material";
+import React, { useEffect } from "react";
+import { HashLink as Link } from "react-router-hash-link";
+import "../css/Navbar.css";
 
 function Navbar() {
+  useEffect(() => {
+    document.title = "Jonathan Laksana";
+  }, []);
+
   return (
     <nav className="nav" id="navbar">
       <Link smooth to="#top" className="siteTitle">

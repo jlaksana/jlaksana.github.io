@@ -1,13 +1,13 @@
-import React from "react";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import {
-  Typography,
   Card,
+  CardActions,
   CardContent,
   CardMedia,
-  CardActions,
   IconButton,
+  Typography,
 } from "@mui/material";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import React from "react";
 
 function ProjectCard({ name, img, description, github }) {
   return (

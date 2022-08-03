@@ -1,13 +1,13 @@
-import "./css/App.css";
-import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
-import theme from "./theme";
-import Navbar from "./components/Navbar";
-import HeroLanding from "./components/HeroLanding";
+import { BrowserRouter } from "react-router-dom";
 import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import HeroLanding from "./components/HeroLanding";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import "./css/App.css";
+import theme from "./theme";
 
 function App() {
   return (
