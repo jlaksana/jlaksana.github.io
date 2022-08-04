@@ -31,7 +31,7 @@ function Contact() {
         </Tooltip>
         <Link to="#" onClick={() => window.open("mailto:jlaksana@calpoly.edu")}>
           <Typography variant="body1" display="inline">
-            jlaksana@calpoly.com
+            jlaksana@calpoly.edu
           </Typography>
         </Link>
       </div>
