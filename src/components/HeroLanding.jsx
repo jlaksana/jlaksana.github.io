@@ -4,17 +4,6 @@ import { HashLink as Link } from "react-router-hash-link";
 import "../css/HeroLanding.css";
 
 function HeroLanding() {
-  /*
-        <div>
-          <img
-            className="headshot"
-            src={process.env.PUBLIC_URL + "headshot.jpg"}
-            width="200rem"
-            height="200rem"
-            alt="My headshot"
-          />
-        </div>
-  */
   return (
     <header>
       <div className="hero">
