@@ -1,4 +1,5 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
+import LaunchIcon from "@mui/icons-material/Launch";
 import {
   Card,
   CardActions,
@@ -9,7 +10,7 @@ import {
 } from "@mui/material";
 import React from "react";
 
-function ProjectCard({ name, img, description, github }) {
+function ProjectCard({ name, img, description, github, link }) {
   return (
     <Card variant="outlined" sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -35,6 +36,16 @@ function ProjectCard({ name, img, description, github }) {
         >
           <GitHubIcon />
         </IconButton>
+        {link ? (
+          <IconButton
+            component="a"
+            onClick={() => window.open(link)}
+            color="primary"
+            aria-label="live link"
+          >
+            <LaunchIcon />
+          </IconButton>
+        ) : null}
       </CardActions>
     </Card>
   );

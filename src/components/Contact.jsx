@@ -8,11 +8,10 @@ import { Link } from "react-router-dom";
 import "../css/Contact.css";
 
 function Contact() {
-  // email, linkedin, github
   return (
     <footer id="contact">
       <div>
-        <Typography variant="h4" color="white">
+        <Typography variant="h5" color="white">
           Contact Me
         </Typography>
         <Tooltip

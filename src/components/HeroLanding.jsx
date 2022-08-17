@@ -7,7 +7,7 @@ function HeroLanding() {
   return (
     <header>
       <div className="hero">
-        <div>
+        <div className="heroContent">
           <Typography variant="h3" color="white">
             Hi, I'm Jonathan
           </Typography>
@@ -19,10 +19,10 @@ function HeroLanding() {
             component={Link}
             variant="contained"
             smooth
-            to="#about"
+            to="#projects"
             color="primary"
           >
-            About Me
+            Projects
           </Button>
           <Button
             component={Link}

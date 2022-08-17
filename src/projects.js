@@ -13,6 +13,7 @@ const projects = [
     description:
       "Full stack scheduler application with React, Express, Node.js, and MongoDB for a SLO-based non-profit.",
     github: "https://github.com/hack4impact-calpoly/HumaneSociety",
+    link: "https://www.woods-humane-society.h4i-cp.org/",
   },
   {
     name: "Speech Emotion Recognition",
@@ -20,6 +21,14 @@ const projects = [
     description:
       "Machine learning models created with Tensorflow to recognize seven emotions in speech recordings.",
     github: "https://github.com/jlaksana/Speech-Emotion-Recognition",
+  },
+  {
+    name: "Weather App",
+    image: "/weather_app.png",
+    description:
+      "Frontend-focused app with React and Typescript. Utilized the OpenWeatherMap and GeoDB Cities APIs to retrieve weather data and cities to search for.",
+    github: "https://github.com/jlaksana/weather-app",
+    link: "https://jlaksana.github.io/weather-app/",
   },
   {
     name: "Tic-Tac-Toe Game and AI",
