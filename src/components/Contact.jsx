@@ -73,11 +73,7 @@ function Contact() {
         >
           <IconButton
             component="a"
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/file/d/1NRMeL_bOOHDmxIE4lxlELO2si8PuJk6h/view?usp=sharing"
-              )
-            }
+            onClick={() => window.open("https://bit.ly/3xFk6q5")}
             aria-label="View Resume"
             color="secondary"
           >

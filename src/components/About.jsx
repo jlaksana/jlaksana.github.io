@@ -13,8 +13,7 @@ function About() {
         Hi there, my name is Jonathan Laksana! I was born and raised in
         Sacramento, CA, and currently studying computer science at Cal Poly SLO.
         I am passionate about working with others to create robust and scalable
-        software solutions. The current areas of computer science that I have
-        been exploring are web development and machine learning.
+        software solutions.
       </Typography>
       <Typography variant="body1">
         My software development journey began in high school when I built a
@@ -22,21 +21,17 @@ function About() {
         software programming was by far the most fascinating to me. During that
         project, I discovered that software engineering was what I wanted to do
         for my career. I have interned at Workday as a Software Application
-        Engineer on their HCM product. There I was first exposed to the
-        professional software engineering discipline. Also, I am a volunteer
-        software developer for the Cal Poly Hack4Impact chapter. There, a team
-        and I developed a full stack scheduler app. Outside of these
-        experiences, I have developed many other projects to expand my skill
-        set. These are viewable below.
+        Engineer on their HCM product. There I learned the professional software
+        engineering discipline, agile methodologies, and proprietary
+        technologies. Also, I am a volunteer software developer for the Cal Poly
+        Hack4Impact chapter. There, a team and I developed a full stack
+        scheduler app. Outside of these experiences, I have developed many other
+        projects to expand my skill set. These are viewable below.
       </Typography>
       <Typography variant="body1">
         Thank you for visiting my portfolio! For any questions or inquiries,
         please contact me at jlaksana@calpoly.edu. You may also view my resume{" "}
-        <a
-          href="https://drive.google.com/file/d/1NRMeL_bOOHDmxIE4lxlELO2si8PuJk6h/view"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://bit.ly/3xFk6q5" target="_blank" rel="noreferrer">
           <Typography variant="body1" display="inline">
             here
           </Typography>
