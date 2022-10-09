@@ -16,6 +16,14 @@ const projects = [
     link: "https://www.woods-humane-society.h4i-cp.org/",
   },
   {
+    name: "Chat App",
+    image: "/chat.png",
+    description:
+      "Personal chat app made with React and Google Firebase. Backend, authentication, deployment all handled with Firebase.",
+    github: "https://github.com/jlaksana/chat-app",
+    link: "https://chat-app-cccd2.web.app/",
+  },
+  {
     name: "Speech Emotion Recognition",
     image: "/ser.png",
     description:
