@@ -8,6 +8,14 @@ const projects = [
   },
   */
   {
+    name: "The Bananalyst",
+    image: "/bananalyst.png",
+    description:
+      "A banana themed movie review site. View popular movies, suggested movies, and reviews for any movie written by fellow Bananalysts.",
+    github: "https://github.com/bbmcmann/307MovieProject",
+    link: "https://white-glacier-0bbe79d1e.2.azurestaticapps.net/",
+  },
+  {
     name: "Woods Humane Volunteer Scheduler",
     image: "/woodsHumane.svg",
     description:
